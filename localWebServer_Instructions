@@ -1,0 +1,21 @@
+Local Web server
+
+Its time to preview your file in a browser. To do so, you may simply right-click on the file and open it with a browser, but you are encouraged to use a local web server instead.
+      ======================================================================================================================
+[[[[[[NOTE: you must execute the command to run the local web server from inside the root directory which contains your index.html file!
+From the command line, navigate to the directory. For example:]]]]]]]
+      ======================================================================================================================
+# Mac Terminal:
+cd ~/Desktop/my-site
+
+# Windows Command Prompt:
+cd C:\Users\YOUR_USERNAME\Desktop\my-site
+After navigating to your directory, start a local web server on port 8888:
+
+# Mac Terminal:
+python -m SimpleHTTPServer 8888 &
+
+# Windows Command Prompt:
+python –m http.server 8888
+
+Finally, visit localhost:8888 in a browser to view your page.
