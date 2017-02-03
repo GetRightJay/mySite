@@ -1,0 +1,92 @@
+body{
+	text-align:center;
+	background-color: #595959;
+}	
+
+a{
+	color:yellow;
+	text-decoration:none;
+}
+
+a:hover{
+	color:blue;
+	text-decoration:none;
+}
+
+a:active{
+	color:white;
+}
+
+/*
+	For Icons: http://www.w3schools.com/css/css_icons.asp
+
+*/
+
+#body1{
+	background-image: url(images/nycgif.gif);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:"Henny Penny";
+	text-align:center;
+}
+
+header{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: white;
+	text-align:center;
+	line-height:45%;
+	border-bottom:groove;
+	margin:auto;
+}
+
+#aboutMe{
+	background-color:blue;
+	border-style:groove;
+	border-color:darkblue;
+	border-radius:8px;
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:25px;
+	margin-left:750px;
+	padding:3px;
+	padding-left:10px;
+}
+
+#whatIDo{
+	background-color:green;
+	border-style:groove;
+	border-radius:8px;
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:825px;
+	margin-left:25px;
+}
+
+#tools{
+	background-color:red;
+	border-style:groove;
+	border-radius:8px;
+}
+
+#goals{
+	background-color:yellow;
+	border-style:groove;
+	border-radius:8px;
+}
+
+footer h4{
+	text-align:center;
+}
+
+footer{
+	color: orange;
+	/*background-image:url("images/stars3.jpeg");*/
+	background-size:77%;
+	background-repeat:no-repeat;
+	background-position:right;
+	border-top:groove;
+	text-align:right;
+	/*text-shadow:1px 4px black;*/
+	/*margin-left: 800px*/
+}
