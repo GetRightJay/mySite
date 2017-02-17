@@ -1,0 +1,104 @@
+/* ------------------- STYLE PAGE BODIES */
+body{
+	text-align:center;
+	background-color: #595959;
+}	
+
+#indexBody,#aboutMeBody,#toolsBody,#goalsBody,#contactMeBody{
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:"Henny Penny";
+	text-align:center;
+}
+
+#indexBody{
+	background-image: url(images/nycgif.gif);
+}
+#aboutMeBody{
+	background-image: url(images/esblapsegif.gif);
+}
+
+#goalsBody{
+	background-image: url(images/statlibertygif.gif);
+}
+
+#contactMeBody{
+	background-image: url(images/nytaxi.gif);
+}
+
+#toolsBody{
+	background-image: url(images/nysubwaygif.gif);
+}
+
+/*------------------------------ DIVS (& Image-Links) */
+#aboutMe{
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:25px;
+	margin-left:750px;
+}
+
+#tools{
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:750px;
+	margin-left:45px;
+}
+
+#goals{
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:65px;
+	margin-left:800px;
+}
+
+#contactMe{
+	margin-top:10px;
+	margin-bottom:auto;
+	margin-right:950px;
+	margin-left:25px;
+}
+
+header{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color: white;
+	text-align:center;
+	line-height:45%;
+	border-bottom:groove;
+	margin:auto;
+}
+
+/* ------------------------ STYLE IMAGES  */
+img{
+	opacity:0.8;
+}
+
+/* ------------------------ STYLE LINKS  */
+a{
+	color:yellow;
+	text-decoration:none;
+}
+
+a:hover{
+	color:blue;
+	text-decoration:none;
+}
+
+a:active{
+	color:white;
+}
+
+/* ------------------------- STYLE LIST(S) */
+#goalsList{
+	margin:2% 35% 40% 35%;
+	background-color: none;
+	list-style-type: square;
+	padding: 5px 30px;
+}
+
+.menuList{
+	display:inline;
+}
+
+
